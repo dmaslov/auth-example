@@ -1,0 +1,8 @@
+<div ng-switch="this.isAuthorized">
+  <div ng-switch-when="true">
+    Hi, {{authCtrl.userName}}! <button ng-click="authCtrl.logout('twitter');">Logout</button>
+  </div>
+  <div ng-switch-default>
+    <button ng-click="authCtrl.login('twitter');">Twitter</button>
+  </div>
+</div>

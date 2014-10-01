@@ -1,0 +1,25 @@
+{
+  "name": "myApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "description": "Example of social networks authentication with AngularJS and hello.js",
+  "main": "server.js",
+  "author": "Maslov Dmitry <maslov.dmitrij@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.1.2",
+    "express": "~4.9.4",
+    "method-override": "^1.0.0",
+    "morgan": "~1.0.0",
+    "oauth-shim": "^0.1.2",
+    "path": "~0.4.9"
+  },
+  "devDependencies": {
+    "gulp": ">=3.5.5",
+    "gulp-concat": ">=2.1.7",
+    "gulp-jsmin": "^0.1.4"
+  }
+}
